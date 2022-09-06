@@ -9,25 +9,25 @@ import getActiveRecords from "./utils/activeRecords";
 import IPerson from "./interfaces/IPerson";
 import sortedRecords from "./utils/sortRecords";
 
-let rockyObj: IPerson = {
+const rockyObj: IPerson = {
     'Name': 'Rocky',
     'Favorite Food': 'Sushi',
     'Favorite Movie': 'Back to The Future',
     'Status': 'Inactive'
 }
-let miroslavObj: IPerson = {
+const miroslavObj: IPerson = {
     'Name': 'Miroslav',
     'Favorite Food': 'Sushi',
     'Favorite Movie': 'American Psycho',
     'Status': 'Active'
 }
-let donnyObj: IPerson = {
+const donnyObj: IPerson = {
     'Name': 'Donny',
     'Favorite Food': 'Singapore chow mei fun',
     'Favorite Movie': 'The Princess Bride',
     'Status': 'Inactive'
 }
-let mattObj: IPerson = {
+const mattObj: IPerson = {
     'Name': 'Matt',
     'Favorite Food': 'Brisket Tacos',
     'Favorite Movie': 'The Princess Bride',
@@ -35,7 +35,7 @@ let mattObj: IPerson = {
 }
 
 // Declaring my object
-let ronyObj: IPerson = {
+const ronyObj: IPerson = {
     Name: 'Rony',
     'Favorite Food': 'Mexican Food',
     'Favorite Movie': 'Fast and Furious',
